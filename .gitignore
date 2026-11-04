@@ -1,0 +1,6 @@
+Debug/
+Release/
+.claude/
+CLAUDE.md
+.mcp.json
+*.orig

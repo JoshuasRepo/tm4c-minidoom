@@ -1,0 +1,8 @@
+# Formatting rules for CCS "Format Document" (clang-format).
+# SortIncludes: false keeps <stdint.h>/<stdbool.h> first (TivaWare headers need them).
+BasedOnStyle: LLVM
+IndentWidth: 4
+BreakBeforeBraces: Allman
+ColumnLimit: 100
+SortIncludes: false
+AllowShortBlocksOnASingleLine: Always
